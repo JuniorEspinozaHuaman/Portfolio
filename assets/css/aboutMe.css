@@ -51,7 +51,10 @@
 
  .section__li {
      width: 48%;
-     background-color: black;
+     color: var(--text);
+     box-shadow: 2px 2px 8px rgba(0, 0, 0, .8);
+     font-family: 'Hind Siliguri', sans-serif;
+     font-weight: var(-text-ligth);
      align-items: center;
      display: flex;
      flex-direction: column;
@@ -61,6 +64,7 @@
      row-gap: 0.7rem;
      height: 150px;
      transition: scale .7s;
+
      
      &:hover {
          scale: 1.05;

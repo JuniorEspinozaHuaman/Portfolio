@@ -25,6 +25,7 @@
   --bg: #f0f0f0;
   --bg-secondary: white;
   --text: #222;
+  --text-: #222222be;
   --bg-principal: #f0f0f0;
   /*adaptar*/
 
@@ -101,7 +102,7 @@
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background-color: var(--bg);
+  background-color: var(--bg-principal);
 }
 
 /* progress bar */
@@ -113,5 +114,5 @@
   top: 6vh;
   left: 0;
   z-index: 10;
-  /* width: 100%; */
+  width: 100%;
 }

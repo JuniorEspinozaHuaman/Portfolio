@@ -18,9 +18,10 @@
     align-items: center;
     border: none;
     z-index: 10;
-    background-color: wheat;
     transition: transform .4s ease-in-out;
     cursor: pointer;
+    background: none;
+    color: var(--text);
 }
 
 .left {
@@ -75,9 +76,11 @@
 
 .article__h4 {
     font-size: 1rem;
-    background-color: black;
+    color: var(--text);
     padding: 6px 30px;
     border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .8);
+    margin-bottom: 10px;
 }
 
 @media (max-width:1024px) {

@@ -113,7 +113,7 @@ margin-bottom: 1.3rem;
     color: var(--text);
     bottom: 23px;
     font-weight: var(--text-bold);
-    z-index: 3;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {
