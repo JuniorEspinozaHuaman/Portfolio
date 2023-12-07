@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junior Espinoza</title>
+  <link rel="shortcut icon" href="./assets/img/Logo-1.png" type="image/x-icon">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="./assets/css/aboutMe.css">
+  <link rel="stylesheet" href="./assets/css/technologies.css">
+  <link rel="stylesheet" href="./assets/css/projects.css">
+  <link rel="stylesheet" href="./assets/css/reviews.css">
+  <link rel="stylesheet" href="./assets/css/contacMe.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+
+  <link rel="stylesheet" href="./assets/css/form.css">
+
+  <meta name="author" content="Junior Espinoza">
+  <meta name="description"
+    content="Desarrollador Full Stack, especializado en construcción de interfaces de usuarios con React y creación de API Rest con Node.js">
+
+  <meta name="keywords"
+    content="Full Stack Developer, Desarrollador Full Stack,JavaScript, CSS,HTML, REACT,GIT, Node.js, Express, SQL, Postgres, programodor con experiencia, web Developer">
+
+  <!-- Open Grap Protocol ( OGP) , es un conjunnto de etiquetas que nos permiten  controlar mejor como compartimos nuestras paginas en redes sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Junior Espinoza. Full Stack Web Developer">
+  <meta property="og:description"
+    content="Desarrollador Full Stack, especializado en construcción de interfaces de usuarios con React y creación de API Rest con Node.js #FullStackDevelopers #DesarrolladorWeb #developers">
+  <meta property="og:url" content="URL_DEL_PORTAFOLIO">
+  <meta property="og:image" content="URL_DE_LA_IMAGEN">
+
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin&family=Hind+Siliguri:wght@300;500;600&family=Nunito:ital,wght@0,700;1,300&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Scroll-timeline Polyfill -->
+  <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('Yrg0WQAdQAdV0M83D')
+  </script>
+
+</head>
+
+<body class="body body--ligth body--dark">
+
+  <div id="progress"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+
+    <span id="menu" class="material-symbols-outlined">
+      menu
+    </span>
+
+    <div class="nav--menu translate--menu">
+
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <span id="btn-translate" class=" btn material-symbols-outlined">
+            translate
+          </span>
+        </li>
+
+        <li class="nav__li">
+          <span id="toggleModeBtn" class=" btn material-symbols-outlined">
+            <!-- dark_mode -->
+            light_mode
+          </span>
+        </li>
+      </ul>
+
+      <ul class="nav__ul">
+        <li class="nav__li" data-translate-es="Inicio" data-translate-en="Home"><a href="#home">Inicio</a></li>
+        <li class="nav__li" data-translate-es="Sobre mí" data-translate-en="About me"><a href="#aboutMe">Sobre mí</a>
+        </li>
+        <li class="nav__li" data-translate-es="Tecnologías" data-translate-en="Technologies"><a
+            href="#technologies">Tecnologías</a></li>
+        <li class="nav__li" data-translate-es="Proyectos" data-translate-en="Projects"><a href="#projects">Proyectos</a>
+        </li>
+        <li class="nav__li" data-translate-es="Reseñas" data-translate-en="Reviews"><a href="#reviews">Reseñas</a></li>
+        <li class="nav__li" data-translate-es="Contáctame" data-translate-en="Contact me"><a
+            href="#contacMe">Contáctame</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <!-- HEADER -->
+
+  <header class="header" id="home">
+    <div class="header--background"></div>
+    <figure class="header__figure">
+      <img src="./assets/img/Logo-1.png" alt="">
+    </figure>
+    <h1 class="header__h1">Mateo Espinoza</h1>
+    <h2 class="header__h2" data-translate-es="Desarrollador web Full Stack"
+      data-translate-en="Full Stack Web Developer">Desarrollador web Full Stack</h2>
+
+    <div class="div--contact">
+      <a id="contactMeBtn" class="div__a">
+        <span data-translate-es="Contactame" data-translate-en="Contact me">Contactame</span>
+        <span class="material-symbols-outlined">
+          arrow_forward_ios
+        </span>
+      </a>
+
+      <a class="div__a" download href="./assets/cv/cv_es.png" data-translate-es="Descargar" data-translate-en="download"
+        id="downloadCV">Descargar</a>
+    </div>
+
+    <!-- <div class="morph"></div> -->
+  </header>
+
+
+  <main class="main">
+    <section id="aboutMe" class="section">
+
+      <article class="section__article">
+        <h2 class="section__h2" data-translate-en="About Me" data-translate-es="Sobre Mí">Sobre Mí</h2>
+        <p class="section__p"
+          data-translate-en="I've participated in numerous web projects, cultivating a robust technical foundation and a mindset focused on problem-solving. I'm known for my ability to rapidly assimilate new technologies."
+          data-translate-es="He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad enfocada en encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías.">
+          He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad enfocada en
+          encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías.
+        </p>
+      </article>
+
+      <article class="section__article">
+        <h3 class="section__h3" data-translate-en="What distinguishes me?" data-translate-es="¿Qué me hace único?">¿Qué
+          me
+          hace único?</h3>
+
+        <ul class="section__ul">
+          <li class="section__li">
+            <h4 data-translate-en="Adaptability" data-translate-es="Adaptabilidad">Adaptabilidad</h4>
+            <p data-translate-en="My training in dynamic tech environments has honed my adaptability."
+              data-translate-es="Mi formación en ambientes tecnológicos dinámicos ha perfeccionado mi adaptabilidad.">
+              Mi formación en ambientes tecnológicos dinámicos ha perfeccionado mi adaptabilidad.
+            </p>
+          </li>
+          <li class="section__li">
+            <h4 data-translate-en="Passion" data-translate-es="Pasión">Passion</h4>
+            <p data-translate-en="I tackle projects with fervor and commitment, aiming to surpass expectations."
+              data-translate-es="Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas.">
+              Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas.
+            </p>
+
+
+          </li>
+          <li class="section__li">
+            <h4 data-translate-en="Commitment" data-translate-es="Compromiso">Compromiso</h4>
+            <p data-translate-en="I prioritize project goals while ensuring on-time delivery and meticulous attention to detail."
+              data-translate-es="Doy prioridad a los objetivos del proyecto, garantizando entregas en tiempo y con atención al detalle.">
+              Doy prioridad a los objetivos del proyecto, garantizando entregas en tiempo y con atención al detalle.
+            </p>
+          </li>
+          <li class="section__li">
+            <h4 data-translate-en="Innovative Vision" data-translate-es="Visión innovadora">Visión
+              innovadora</h4>
+            <p data-translate-en="I constantly seek fresh strategies to tackle challenges."
+              data-translate-es="Busco constantemente estrategias innovadoras para enfrentar desafíos.">
+              Busco constantemente estrategias innovadoras para enfrentar desafíos.
+            </p>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section id="technologies" class="section">
+      <h2 class="section__h2" data-translate-en="Technologies" data-translate-es="Tecnologías">Tecnologías</h2>
+      <div class="tech-cards">
+        <!-- HTML Card -->
+        <article class="tech-card">
+          <i class="tech-card__html fa-brands fa-html5 "></i>
+          <span class="tech-card__back">HTML</span>
+        </article>
+        <!-- CSS Card -->
+        <article class="tech-card">
+          <i class="tech-card__css fa-brands fa-css3-alt"></i>
+          <span class="tech-card__back">CSS</span>
+        </article>
+        <!-- JavaScript Card -->
+        <article class="tech-card">
+          <i class="tech-card__js fa-brands fa-js"></i>
+          <span class="tech-card__front">JavaScript</span>
+        </article>
+        <!-- Git Card -->
+        <article class="tech-card">
+          <i class="tech-card__git fa-brands fa-git-alt"></i>
+          <span class="tech-card__front">Git</span>
+        </article>
+        <!-- React Card -->
+        <article class="tech-card">
+          <i class="tech-card__react fa-brands fa-react"></i>
+          <span class="tech-card__front">React</span>
+        </article>
+        <!-- Node.js Card -->
+        <article class="tech-card">
+          <i class="tech-card__node fa-brands fa-node"></i>
+          <span class="tech-card__front">Node.js</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section__h2" data-translate-en="Projects" data-translate-es="Proyectos">Proyectos</h2>
+      <article class="article">
+
+        <button class="article__button left">
+          <i class="fa-solid fa-caret-left"></i>
+        </button>
+
+        <ul class="article__ul" id="conteiner_projects">
+
+          <!-- aqui insertaremos los li (API)-->
+
+          <!-- <li class="article__li">
+            <img src="./assets/img/raindrops.jpg" alt="" class="article__img">
+            <h3 class="article__h3">PERU</h3>
+            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
+            <h4 class="article__h4">HTML, JS, CSS</h4>
+          </li> -->
+
+          <!-- <li class="article__li">
+            <img src="./assets/img/buildings.png" alt="" class="article__img">
+            <h3 class="article__h3">PERU</h3>
+            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
+            <h4 class="article__h4">HTML, JS, CSS</h4>
+          </li>
+
+          <li class="article__li">
+            <img src="./assets/img/buildings2.png" alt="" class="article__img">
+            <h3 class="article__h3">PERU</h3>
+            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
+            <h4 class="article__h4">HTML, JS, CSS</h4>
+          </li>
+
+          <li class="article__li">
+            <img src="./assets/img/abstract-art.png" alt="" class="article__img">
+            <h3 class="article__h3">PERU</h3>
+            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
+            <h4 class="article__h4">HTML, JS, CSS</h4>
+          </li>
+
+          <li class="article__li">
+            <img src="./assets/img/train.png" alt="" class="article__img">
+            <h3 class="article__h3">PERU</h3>
+            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
+            <h4 class="article__h4">HTML, JS, CSS</h4>
+          </li> -->
+
+        </ul>
+
+        <button class="article__button right">
+          <i class="fa-solid fa-caret-right"></i>
+        </button>
+
+      </article>
+    </section>
+
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="section section--reviws">
+      <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
+      <ul class="ul--review" id="reviews-list">
+        <!-- aqui insertaremos los li (API)-->
+      </ul>
+    </section>
+
+
+
+
+
+
+    <!-- CONTACME -->
+    <section id="contacMe" class="section">
+      <h2 class="section__h2">Contáctame</h2>
+      <p class="section__p">Estoy disponible a través de múltiples canales. Elige el que prefieras:</p>
+
+      <div class="contact-networks">
+        <!-- phone -->
+        <article class="contact-network">
+          <a href="">
+            <i class="contact-network__phone fa-solid fa-phone"></i>
+            <span class="contact-network__name">Llámame</span>
+          </a>
+        </article>
+
+        <!-- email -->
+        <article class="contact-network">
+          <a href="">
+            <i class="contact-network__email fa-regular fa-envelope"></i>
+            <span class="contact-network__name">Envíame un correo</span>
+          </a>
+        </article>
+
+        <!-- whatsapp -->
+        <article class="contact-network">
+          <a href="">
+            <i class="contact-network__whatsapp fa-brands fa-whatsapp"></i>
+            <span class="contact-network__name">WhatsApp</span>
+          </a>
+        </article>
+
+        <!-- linkedin -->
+        <article class="contact-network">
+          <a href="">
+            <i class="contact-network__linkedin fa-brands fa-linkedin-in"></i>
+            <span class="contact-network__name">LinkedIn</span>
+          </a>
+        </article>
+
+        <!-- github -->
+        <article class="contact-network">
+          <a href="">
+            <i class="contact-network__github fa-brands fa-github"></i>
+            <span class="contact-network__name">GitHub</span>
+          </a>
+        </article>
+      </div>
+
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <article class="footer__article">
+      <h3 class="footer__h3">Mateo Espinoza</h3>
+      <p class="footer__p">Desarrollador Full-stack dedicado a aprender y aplicar tecnologías modernas para resolver problemas complejos.
+      </p>
+    </article>
+
+    <article class="footer__article">
+      <i class="fa-solid fa-location-dot"></i>
+      <p class="footer__p">Perú, Lima</p>
+      <p class="footer__p">: &copy; 2023</p>
+    </article>
+
+    <article class="footer__article">
+      <a href="">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <a href="">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a href="">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    </article>
+
+
+  </footer>
+
+  <dialog id='dialog' class="dialog">
+    <button class="dialog__button" id="close_button">
+      <span class="material-symbols-outlined">
+        close
+      </span>
+    </button>
+
+    <form id="form" class="form--conteiner" method="post">
+
+      <label for="name" data-translate-en="Name:" data-translate-es="Nombre:" class="form__label">
+        Nombre:
+      </label>
+      <input type="text" id="name" name="name" required class="form__input">
+
+
+      <label for="email" data-translate-en="Email:" data-translate-es="Correo electronico:" class="form__label">
+        Correo electronico:
+      </label>
+      <input type="email" id="email" name="email" required class="form__input">
+
+
+      <label for="phone" data-translate-en="Phone:" data-translate-es="Teléfono:" class="form__label">
+        Teléfono:
+      </label>
+      <input type="tel" id="phone" name="phone" required class="form__input">
+
+
+      <label for="message" data-translate-en="Message:" data-translate-es="Mensaje:" class="form__label">
+        Mensaje:
+      </label>
+      <textarea type="text" id="message" name="message" required class="form__input form__area"> </textarea>
+
+
+      <button id="btn-send" type="submit" class="form__button" data-translate-en="Send"
+        data-translate-es="Enviar">Enviar</button>
+
+    </form>
+  </dialog>
+
+  <script src="./assets/js/changeMode.js"></script>
+  <script src="./assets/js/changeLanguage.js"></script>
+  <script src="./assets/js/responsiveMenu.js"></script>
+  <script src="./assets/js/progressBar.js"></script>
+  <script src="./assets/js/form.js"></script>
+  <script src="./assets/js/promese.js"></script>
+  <script src="./assets/js/asyncAwait.js"></script>
+
+  <script src="https://kit.fontawesome.com/f0fecf672b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- metologia BEM
+
+B:BLOQUE
+E:ELEMENTO
+M:MODIFICADOR
+
+-->
