@@ -61,7 +61,7 @@
 
 <body class="body body--ligth body--dark">
 
-  <div id="progress"></div>
+  <div id="progress" class="progress--bar"></div>
 
   <!-- NAV -->
   <nav class="nav">
@@ -88,16 +88,31 @@
       </ul>
 
       <ul class="nav__ul">
-        <li class="nav__li" data-translate-es="Inicio" data-translate-en="Home"><a href="#home">Inicio</a></li>
-        <li class="nav__li" data-translate-es="Sobre mí" data-translate-en="About me"><a href="#aboutMe">Sobre mí</a>
+
+        <li class="nav__li">
+          <a href="#home" data-translate-es="Inicio" data-translate-en="Home">Inicio</a>
         </li>
-        <li class="nav__li" data-translate-es="Tecnologías" data-translate-en="Technologies"><a
-            href="#technologies">Tecnologías</a></li>
-        <li class="nav__li" data-translate-es="Proyectos" data-translate-en="Projects"><a href="#projects">Proyectos</a>
+
+        <li class="nav__li">
+          <a href="#aboutMe" data-translate-es="Sobre mí" data-translate-en="About me">Sobre mí</a>
         </li>
-        <li class="nav__li" data-translate-es="Reseñas" data-translate-en="Reviews"><a href="#reviews">Reseñas</a></li>
-        <li class="nav__li" data-translate-es="Contáctame" data-translate-en="Contact me"><a
-            href="#contacMe">Contáctame</a></li>
+
+        <li class="nav__li">
+          <a href="#technologies" data-translate-es="Tecnologías" data-translate-en="Technologies">Tecnologías</a>
+        </li>
+
+        <li class="nav__li">
+          <a href="#projects" data-translate-es="Proyectos" data-translate-en="Projects">Proyectos</a>
+        </li>
+
+        <li class="nav__li">
+          <a href="#reviews" data-translate-es="Reseñas" data-translate-en="Reviews">Reseñas</a>
+        </li>
+
+        <li class="nav__li">
+          <a href="#contacMe" data-translate-es="Contáctame" data-translate-en="Contact me">Contáctame</a>
+        </li>
+
       </ul>
     </div>
 
@@ -386,19 +401,19 @@
       <label for="name" data-translate-en="Name:" data-translate-es="Nombre:" class="form__label">
         Nombre:
       </label>
-      <input type="text" id="name" name="name" required class="form__input">
+      <input type="text" id="name" name="name" required autocomplete="name" class="form__input">
 
 
       <label for="email" data-translate-en="Email:" data-translate-es="Correo electronico:" class="form__label">
         Correo electronico:
       </label>
-      <input type="email" id="email" name="email" required class="form__input">
+      <input type="email" id="email" name="email" required autocomplete="email" class="form__input">
 
 
       <label for="phone" data-translate-en="Phone:" data-translate-es="Teléfono:" class="form__label">
         Teléfono:
       </label>
-      <input type="tel" id="phone" name="phone" required class="form__input">
+      <input type="tel" id="phone" name="phone" required autocomplete="phone" class="form__input">
 
 
       <label for="message" data-translate-en="Message:" data-translate-es="Mensaje:" class="form__label">

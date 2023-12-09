@@ -110,9 +110,9 @@
 #progress {
   height: 2px;
   background-color: var(--text);
-  position: fixed;
-  top: 6vh;
+  position: sticky;
+  top: 60px;
   left: 0;
-  z-index: 10;
-  width: 100%;
+  z-index: 12;
+  /* width: 100%; */
 }

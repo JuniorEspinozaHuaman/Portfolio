@@ -13,24 +13,19 @@ document.addEventListener("DOMContentLoaded", function () {
         const translation = phrase.getAttribute('data-translate-en')
         phrase.textContent = translation
       }
-      language = 'en'
+      
       document.getElementById('downloadCV').href = '../cv/cv_en.png'
+      language = 'en'
 
     } else {
       for (const phrase of elementsToTranslate) {
         const translation = phrase.getAttribute('data-translate-es')
         phrase.textContent = translation
       }
-      language = 'es'
+      
       document.getElementById('downloadCV').href = '../cv/cv_es.png'
-
+      language = 'es'
     }
-
-
-
-
   })
-
-
 
 });
