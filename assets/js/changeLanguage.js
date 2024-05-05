@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // AQUÍ PONDRE TODO EL CODIGO
   const elementsToTranslate = document.querySelectorAll("[data-translate-es]");
-  console.log(elementsToTranslate);
+  // console.log(elementsToTranslate);
   const btnChangeLanguage = document.getElementById('btn-translate')
 
   let language = 'es'
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         phrase.textContent = translation
       }
       
-      document.getElementById('downloadCV').href = '../cv/cv_en.png'
+      document.getElementById('downloadCV').href = './assets/cv/cv.pdf'
       language = 'en'
 
     } else {
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         phrase.textContent = translation
       }
       
-      document.getElementById('downloadCV').href = '../cv/cv_es.png'
+      document.getElementById('downloadCV').href = './assets/cv/cv.pdf'
       language = 'es'
     }
   })

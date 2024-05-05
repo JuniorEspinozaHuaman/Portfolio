@@ -1,19 +1,10 @@
- .main {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     flex-direction: column;
-     /* background-color: #1a1d23 */
- }
-
- .section {
+.main__section {
      width: 90%;
      max-width: 1200px;
      text-align: center;
  }
 
- .section__article {
+ .main__article {
      padding: 2em;
      display: flex;
      align-items: center;
@@ -22,25 +13,28 @@
      position: relative;
      /* background-color: darkcyan; */
  }
-
- .section__h2 {
-     margin-top: 10vh;
+.main__article--aboutme {
+    margin-bottom: 1.2rem;
+}
+ .main__title {
+     /* margin-top: 10vh; */
      font-size: 2.6rem;
+     padding-top: 60px;
  }
 
- .section__p {
+ .main__paragraph {
      font-size: 1.3rem;
  }
 
- .section__h3 {
+ .main__subtitle {
      font-size: 2.2rem;
  }
 
- .section__li h4 {
+ .main__item h4 {
      font-size: 1.2rem;
  }
 
- .section__ul {
+ .main__list {
      list-style: none;
      display: flex;
      gap: 2rem;
@@ -49,7 +43,7 @@
      flex-wrap: wrap;
  }
 
- .section__li {
+ .main__item {
      width: 48%;
      color: var(--text);
      box-shadow: 2px 2px 8px rgba(0, 0, 0, .8);
@@ -62,7 +56,7 @@
      text-align: center;
      padding: 1.4rem 1.1rem;
      row-gap: 0.7rem;
-     height: 150px;
+     height: 160px;
      transition: scale .7s;
 
      
@@ -72,25 +66,25 @@
  }
  
 
- .section__li {
+ .main__item {
      padding: 1rem;
      /* row-gap: ; */
  }
 
  @media (max-width: 1024px) {
-     .section__li {
+     .main__item {
          width: 47%;
          flex: calc(50%-2em);
      }
  }
 
  @media (max-width:667px) {
-     .section__li {
+     .main__item {
          width: 100%;
 
      }
 
-     .section__h2 {
+     .main__subtitle {
          margin-top: 7vh;
          font-size: 2.6rem;
      }

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="./assets//css//main.css">
   <link rel="stylesheet" href="./assets/css/aboutMe.css">
   <link rel="stylesheet" href="./assets/css/technologies.css">
   <link rel="stylesheet" href="./assets/css/projects.css">
@@ -105,9 +106,9 @@
           <a href="#projects" data-translate-es="Proyectos" data-translate-en="Projects">Proyectos</a>
         </li>
 
-        <li class="nav__li">
+        <!-- <li class="nav__li">
           <a href="#reviews" data-translate-es="Reseñas" data-translate-en="Reviews">Reseñas</a>
-        </li>
+        </li> -->
 
         <li class="nav__li">
           <a href="#contacMe" data-translate-es="Contáctame" data-translate-en="Contact me">Contáctame</a>
@@ -120,24 +121,24 @@
   <!-- HEADER -->
 
   <header class="header" id="home">
-    <div class="header--background"></div>
+    <div class="header__background"></div>
     <figure class="header__figure">
-      <img src="./assets/img/Logo-1.png" alt="">
+      <img class="header__image" src="./assets/image/Logo-1.png" alt="">
     </figure>
-    <h1 class="header__h1">Mateo Espinoza</h1>
-    <h2 class="header__h2" data-translate-es="Desarrollador web Full Stack"
+    <h1 class="header__title">Mateo Espinoza</h1>
+    <h2 class="header__subtitle" data-translate-es="Desarrollador web Full Stack"
       data-translate-en="Full Stack Web Developer">Desarrollador web Full Stack</h2>
 
-    <div class="div--contact">
-      <a id="contactMeBtn" class="div__a">
+    <div class="header__contact">
+      <a id="contactMeBtn" class="header__link">
         <span data-translate-es="Contactame" data-translate-en="Contact me">Contactame</span>
         <span class="material-symbols-outlined">
           arrow_forward_ios
         </span>
       </a>
 
-      <a class="div__a" download href="./assets/cv/cv_es.png" data-translate-es="Descargar" data-translate-en="download"
-        id="downloadCV">Descargar</a>
+      <a class="header__link" download href="./assets/cv/cv.pdf" data-translate-es="Descargar"
+        data-translate-en="download" id="downloadCV">Descargar</a>
     </div>
 
     <!-- <div class="morph"></div> -->
@@ -145,48 +146,46 @@
 
 
   <main class="main">
-    <section id="aboutMe" class="section">
+    <section id="aboutMe" class="main__section">
 
-      <article class="section__article">
-        <h2 class="section__h2" data-translate-en="About Me" data-translate-es="Sobre Mí">Sobre Mí</h2>
-        <p class="section__p"
-          data-translate-en="I've participated in numerous web projects, cultivating a robust technical foundation and a mindset focused on problem-solving. I'm known for my ability to rapidly assimilate new technologies."
-          data-translate-es="He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad enfocada en encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías.">
-          He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad enfocada en
-          encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías.
+      <article class="main__article">
+        <h2 class="main__title" data-translate-en="About Me" data-translate-es="Sobre Mí">Sobre Mí</h2>
+        <p class="main__paragraph"
+          data-translate-en="I have participated in numerous web projects, developing a solid technical foundation and a mindset focused on finding solutions. I am characterized by my ability to quickly assimilate new technologies and my ability to work effectively in multidisciplinary teams, contributing innovative ideas and adapting quickly to changes in the technological environment."
+          data-translate-es="He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad enfocada en encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías y por mi capacidad para trabajar de manera efectiva en equipos multidisciplinarios, aportando ideas innovadoras y adaptándome rápidamente a los cambios del entorno tecnológico.">
+          He participado en numerosos proyectos web, desarrollando una sólida base técnica y una mentalidad enfocada en encontrar soluciones. Me caracterizo por mi habilidad para asimilar rápidamente nuevas tecnologías y por mi capacidad para trabajar de manera efectiva en equipos multidisciplinarios, aportando ideas innovadoras y adaptándome rápidamente a los cambios del entorno tecnológico.
         </p>
       </article>
 
-      <article class="section__article">
-        <h3 class="section__h3" data-translate-en="What distinguishes me?" data-translate-es="¿Qué me hace único?">¿Qué
-          me
-          hace único?</h3>
+      <article class="main__article main__article--aboutme">
+        <h3 class="main__subtitle" data-translate-en="What distinguishes me?" data-translate-es="¿Qué me hace único?">
+          ¿Qué me hace único?</h3>
 
-        <ul class="section__ul">
-          <li class="section__li">
+        <ul class="main__list">
+          <li class="main__item">
             <h4 data-translate-en="Adaptability" data-translate-es="Adaptabilidad">Adaptabilidad</h4>
-            <p data-translate-en="My training in dynamic tech environments has honed my adaptability."
-              data-translate-es="Mi formación en ambientes tecnológicos dinámicos ha perfeccionado mi adaptabilidad.">
-              Mi formación en ambientes tecnológicos dinámicos ha perfeccionado mi adaptabilidad.
+            <p data-translate-en="Ability to adjust and learn quickly. My training in dynamic technological environments has honed my adaptability."
+              data-translate-es="Capacidad para ajustarse y aprender rápido. Mi formación en ambientes tecnológicos dinámicos ha perfeccionado mi adaptabilidad. ">
+              Capacidad para ajustarse y aprender rápido. Mi formación en ambientes tecnológicos dinámicos ha perfeccionado mi adaptabilidad. 
             </p>
           </li>
-          <li class="section__li">
+          <li class="main__item">
             <h4 data-translate-en="Passion" data-translate-es="Pasión">Passion</h4>
-            <p data-translate-en="I tackle projects with fervor and commitment, aiming to surpass expectations."
-              data-translate-es="Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas.">
-              Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas.
+            <p data-translate-en="Love for solving problems and learning. I tackle projects with fervor and commitment, aiming to surpass expectations."
+              data-translate-es="Amor por resolver problemas y aprender. Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas. ">
+              Amor por resolver problemas y aprender. Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas. 
             </p>
 
 
           </li>
-          <li class="section__li">
+          <li class="main__item">
             <h4 data-translate-en="Commitment" data-translate-es="Compromiso">Compromiso</h4>
             <p data-translate-en="I prioritize project goals while ensuring on-time delivery and meticulous attention to detail."
               data-translate-es="Doy prioridad a los objetivos del proyecto, garantizando entregas en tiempo y con atención al detalle.">
               Doy prioridad a los objetivos del proyecto, garantizando entregas en tiempo y con atención al detalle.
             </p>
           </li>
-          <li class="section__li">
+          <li class="main__item">
             <h4 data-translate-en="Innovative Vision" data-translate-es="Visión innovadora">Visión
               innovadora</h4>
             <p data-translate-en="I constantly seek fresh strategies to tackle challenges."
@@ -199,154 +198,224 @@
     </section>
 
     <!-- TECHNOLOGIES -->
-    <section id="technologies" class="section">
-      <h2 class="section__h2" data-translate-en="Technologies" data-translate-es="Tecnologías">Tecnologías</h2>
-      <div class="tech-cards">
+    <section id="technologies" class="main__section main__section--technologies">
+      <h2 class="main__title main__title--technologies"  data-translate-en="Technologies" data-translate-es="Tecnologías">Tecnologías</h2>
+      <div class="main__cards">
         <!-- HTML Card -->
-        <article class="tech-card">
-          <i class="tech-card__html fa-brands fa-html5 "></i>
-          <span class="tech-card__back">HTML</span>
+        <article class="main__card">
+          <i class="main__html fa-brands fa-html5 "></i>
+          <span>HTML</span>
         </article>
         <!-- CSS Card -->
-        <article class="tech-card">
-          <i class="tech-card__css fa-brands fa-css3-alt"></i>
-          <span class="tech-card__back">CSS</span>
+        <article class="main__card">
+          <i class="main__css fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
         </article>
         <!-- JavaScript Card -->
-        <article class="tech-card">
-          <i class="tech-card__js fa-brands fa-js"></i>
-          <span class="tech-card__front">JavaScript</span>
+        <article class="main__card">
+          <i class="main__js fa-brands fa-js"></i>
+          <span>JavaScript</span>
         </article>
         <!-- Git Card -->
-        <article class="tech-card">
-          <i class="tech-card__git fa-brands fa-git-alt"></i>
-          <span class="tech-card__front">Git</span>
+        <article class="main__card">
+          <i class="main__git fa-brands fa-git-alt"></i>
+          <span>Git</span>
         </article>
         <!-- React Card -->
-        <article class="tech-card">
-          <i class="tech-card__react fa-brands fa-react"></i>
-          <span class="tech-card__front">React</span>
+        <article class="main__card">
+          <i class="main__react fa-brands fa-react"></i>
+          <span>React</span>
         </article>
         <!-- Node.js Card -->
-        <article class="tech-card">
-          <i class="tech-card__node fa-brands fa-node"></i>
-          <span class="tech-card__front">Node.js</span>
+        <article class="main__card">
+          <i class="main__node fa-brands fa-node"></i>
+          <span>Node.js</span>
         </article>
       </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projects" class="section">
-      <h2 class="section__h2" data-translate-en="Projects" data-translate-es="Proyectos">Proyectos</h2>
-      <article class="article">
+    <section id="projects" class="main__section main__section--projects">
+      <h2 class="main__title" data-translate-en="Projects" data-translate-es="Proyectos">Proyectos</h2>
+     
+      <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="./assets/image/Pokemondark.png">
+                <div class="content">
+                    <div class="author author--pokemon">POKEAPI</div>
+                    <div class="title title--pokemon" >POKEDEX</div>
+                    <div class="topic topic--pokemon">APP</div>
+                    <div class="des des--pokemon">
+                      Aplicación que permite a los usuarios explorar de manera facil los pokemones. Una interfaz fluida y atractiva que facilita la búsqueda y filtrado de Pokémon por nombre y tipo. Integración de la API externa PokeAPI. Tecnologías React, JavaScript, HTML y CSS.
+                    </div>
+                    <div class="buttons">
+                        <button><a href="https://pokedex-mateo-espinoza.vercel.app" target="_blank">APP</a></button>
+                        <button><a href="https://github.com/JuniorEspinozaHuaman/pokemon-g33.git" target="_blank">GITHUB</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/image/usercrudappdark.png">
+                <div class="content">
+                    <div class="author">MATEO ESPINOZA</div>
+                    <div class="title">USER CRUD</div>
+                    <div class="topic">APP</div>
+                    <div class="des">
+                      Es una aplicación de usuarios que permite crear, actualizar y eliminar el usuario desarrollado desde el backend hasta el despliegue en el frontend. Tecnologías React, JavaScript, HTML, CSS, node.js y postgresql.
+                    </div>
+                    <div class="buttons">
+                      <button><a href="https://user-crud-mateo-espinoza.vercel.app" target="_blank">APP</a></button>
+                      <button><a href="https://github.com/JuniorEspinozaHuaman/User-Crud.git" target="_blank">GITHUB</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/image/rickandmortyapp.png">
+                <div class="content">
+                    <div class="author">RICKANDMORTYAPI</div>
+                    <div class="title">RICK AND MORTY</div>
+                    <div class="topic">APP</div>
+                    <div class="des">
+                      Aplicación donde se muestra todos los personajes de la serie Rick and Morty con sus respectivas informaciones. Tecnologías React, JavaScript, HTML y CSS.
+                    </div>
+                    <div class="buttons">
+                      <button><a href="https://rick-and-morty-mateo-espinoza.vercel.app" target="_blank">APP</a></button>
+                      <button><a href="https://github.com/JuniorEspinozaHuaman/Rick-and-Morty.git" target="_blank">GITHUB</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/image/bookingappdark.png">
+                <div class="content">
+                    <div class="author">MATEO ESPINOZA</div>
+                    <div class="title">BOOKING</div>
+                    <div class="topic">APP</div>
+                    <div class="des">
+                      Desarrollo de la aplicación de reservas de hotel desde la interfaz del usuario, diseño y base de datos. Tecnologías React, JavaScript, HTML y CSS.
+                    </div>
+                    <div class="buttons">
+                      <button><a href="https://booking-app-mateo-espinoza.vercel.app" target="_blank">APP</a></button>
+                      <button><a href="https://github.com/JuniorEspinozaHuaman/BookingApp-33.git" target="_blank">GITHUB</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumbnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="./assets/image/Pokemondark.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/image/usercrudappdark.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/image/rickandmortyapp.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./assets/image/bookingappdark.png">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
 
-        <button class="article__button left">
-          <i class="fa-solid fa-caret-left"></i>
-        </button>
-
-        <ul class="article__ul" id="conteiner_projects">
-
-          <!-- aqui insertaremos los li (API)-->
-
-          <!-- <li class="article__li">
-            <img src="./assets/img/raindrops.jpg" alt="" class="article__img">
-            <h3 class="article__h3">PERU</h3>
-            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
-            <h4 class="article__h4">HTML, JS, CSS</h4>
-          </li> -->
-
-          <!-- <li class="article__li">
-            <img src="./assets/img/buildings.png" alt="" class="article__img">
-            <h3 class="article__h3">PERU</h3>
-            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
-            <h4 class="article__h4">HTML, JS, CSS</h4>
-          </li>
-
-          <li class="article__li">
-            <img src="./assets/img/buildings2.png" alt="" class="article__img">
-            <h3 class="article__h3">PERU</h3>
-            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
-            <h4 class="article__h4">HTML, JS, CSS</h4>
-          </li>
-
-          <li class="article__li">
-            <img src="./assets/img/abstract-art.png" alt="" class="article__img">
-            <h3 class="article__h3">PERU</h3>
-            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
-            <h4 class="article__h4">HTML, JS, CSS</h4>
-          </li>
-
-          <li class="article__li">
-            <img src="./assets/img/train.png" alt="" class="article__img">
-            <h3 class="article__h3">PERU</h3>
-            <p class="article__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat.</p>
-            <h4 class="article__h4">HTML, JS, CSS</h4>
-          </li> -->
-
-        </ul>
-
-        <button class="article__button right">
-          <i class="fa-solid fa-caret-right"></i>
-        </button>
-
-      </article>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
     </section>
 
 
     <!-- REVIEWS -->
-    <section id="reviews" class="section section--reviws">
-      <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
+    <!-- <section id="reviews" class="main__section section--reviews">
+      <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="main__title">Reseñas</h2>
       <ul class="ul--review" id="reviews-list">
-        <!-- aqui insertaremos los li (API)-->
+       
       </ul>
-    </section>
+    </section> -->
 
     <!-- CONTACME -->
-    <section id="contacMe" class="section">
-      <h2 data-translate-en="Contac Me" data-translate-es="Contáctame" class="section__h2">Contáctame</h2>
+    <section id="contacMe" class="main__section main__section--contacme">
+      <h2 data-translate-en="Contac Me" data-translate-es="Contáctame" class="main__title main__title--contacme">Contáctame</h2>
       <p data-translate-en="I am available through multiple channels. Choose the one you prefer:"
-        data-translate-es="Estoy disponible a través de múltiples canales. Elige el que prefieras:" class="section__p">
+        data-translate-es="Estoy disponible a través de múltiples canales. Elige el que prefieras:"
+        class="main__paragraph main__paragraph--contacme">
         Estoy disponible a través de múltiples canales. Elige el que prefieras:</p>
 
-      <div class="contact-networks">
+      <div class="main__networks">
         <!-- phone -->
-        <article class="contact-network">
-          <a href="tel:+515555555" target="_blank">
-            <i class="contact-network__phone fa-solid fa-phone"></i>
-            <span data-translate-en="Call me" data-translate-es="Llámame" class="contact-network__name">Llámame</span>
+        <article class="main__network">
+          <a href="tel:+970590540" target="_blank">
+            <i class="fa-solid fa-phone"></i>
+            <span data-translate-en="Call me" data-translate-es="Llámame" class="main__nameApp">Llámame</span>
           </a>
         </article>
 
         <!-- email -->
-        <article class="contact-network">
-          <a href="mailto:juniorrr123321@gmail.com" target="_blank">
-            <i class="contact-network__email fa-regular fa-envelope"></i>
+        <article class="main__network">
+          <a href="mailto:mateo.j.e.h@gmail.com" target="_blank">
+            <i class="fa-regular fa-envelope"></i>
             <span data-translate-en="Send me an email" data-translate-es="Envíame un correo"
-              class="contact-network__name">Envíame un correo</span>
+              class="main__nameApp">Envíame un correo</span>
           </a>
         </article>
 
         <!-- whatsapp -->
-        <article class="contact-network">
-          <a href="https://wa.me/+5155555555?text=tu%20mensaje" target="_blank">
-            <i class="contact-network__whatsapp fa-brands fa-whatsapp"></i>
-            <span class="contact-network__name">WhatsApp</span>
+        <article class="main__network">
+          <a href="https://wa.me/+970590540?text=tu%20mensaje" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="main__nameApp">WhatsApp</span>
           </a>
         </article>
 
         <!-- linkedin -->
-        <article class="contact-network">
-          <a href="https://pe.linkedin.com/" target="_blank">
-            <i class="contact-network__linkedin fa-brands fa-linkedin-in"></i>
-            <span class="contact-network__name">LinkedIn</span>
+        <article class="main__network">
+          <a href="https://www.linkedin.com/in/mateoespinoza-dev" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span class="main__nameApp">LinkedIn</span>
           </a>
         </article>
 
         <!-- github -->
-        <article class="contact-network">
+        <article class="main__network">
           <a href="https://github.com/JuniorEspinozaHuaman" target="_blank">
-            <i class="contact-network__github fa-brands fa-github"></i>
-            <span class="contact-network__name">GitHub</span>
+            <i class="fa-brands fa-github"></i>
+            <span class="main__nameApp">GitHub</span>
           </a>
         </article>
       </div>
@@ -358,31 +427,32 @@
   <!-- FOOTER -->
   <footer class="footer">
     <article class="footer__article">
-      <h3 class="footer__h3">Mateo Espinoza</h3>
+      <h3 class="footer__subtitle">Mateo Espinoza</h3>
       <p data-translate-en="Full-stack developer dedicated to learning and applying modern technologies to solve complex problems."
         data-translate-es="Desarrollador Full-stack dedicado a aprender y aplicar tecnologías modernas para resolver problemas complejos."
-        class="footer__p">Desarrollador Full-stack dedicado a aprender y aplicar tecnologías modernas para resolver
+        class="footer__paragraph">Desarrollador Full-stack dedicado a aprender y aplicar tecnologías modernas para
+        resolver
         problemas complejos.
       </p>
     </article>
 
     <article class="footer__article">
-      <i class="footer__i fa-solid fa-location-dot"></i>
+      <i class="footer__icon fa-solid fa-location-dot"></i>
       <p data-translate-en="Lima, Peru " data-translate-es="Lima, Perú" class="footer__p">Lima, Perú</p>
-      <p class="footer__p">: &copy; 2023</p>
+      <p class="footer__paragraph">ME: &copy; 2023</p>
     </article>
 
     <article class="footer__article">
       <a href="https://www.facebook.com/" target="_blank">
-        <i class="footer__i fa-brands fa-facebook"></i>
+        <i class="footer__icon fa-brands fa-facebook"></i>
       </a>
 
       <a href="https://twitter.com/" target="_blank">
-        <i class="footer__i fa-brands fa-x-twitter"></i>
+        <i class="footer__icon fa-brands fa-x-twitter"></i>
       </a>
 
-      <a href="https://pe.linkedin.com/" target="_blank">
-        <i class="footer__i fa-brands fa-linkedin-in"></i>
+      <a href="https://www.linkedin.com/in/mateoespinoza-dev" target="_blank">
+        <i class="footer__icon fa-brands fa-linkedin-in"></i>
       </a>
     </article>
 
@@ -433,8 +503,9 @@
   <script src="./assets/js/responsiveMenu.js"></script>
   <script src="./assets/js/progressBar.js"></script>
   <script src="./assets/js/form.js"></script>
-  <script src="./assets/js/promese.js"></script>
-  <script src="./assets/js/asyncAwait.js"></script>
+  <!-- <script src="./assets/js/promese.js"></script> -->
+  <script src="./assets/js/projects.js"></script>
+  <!-- <script src="./assets/js/asyncAwait.js"></script> -->
 
   <script src="https://kit.fontawesome.com/f0fecf672b.js" crossorigin="anonymous"></script>
 </body>

@@ -63,7 +63,8 @@
   background-color: var(--bg-principal);
   color: var(--text);
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
 }
 
 
